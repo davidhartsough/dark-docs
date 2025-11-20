@@ -1,0 +1,26 @@
+.docs-gm.docs-material.docs-body-pageless #docs-chrome.docs-material {
+  background-color: #101214;
+  color: #f8f9fa;
+}
+.docs-gm.docs-material.docs-body-pageless
+  #docs-chrome.docs-material
+  #docs-header-container
+  .docs-titlebar-buttons {
+  background-color: #101214;
+}
+.docs-gm.docs-material.docs-body-pageless .docs-menubar .goog-control {
+  color: #f8f9fa;
+}
+.docs-gm.docs-material.docs-body-pageless.docs-grille-gm3 .docs-title-input {
+  color: #101214;
+}
+.docs-titlebar-badge {
+  color: #edf0f2;
+}
+.docs-gm.docs-material.docs-body-pageless.docs-grille-gm3
+  .docs-menubar
+  .goog-control:hover:active,
+.docs-gm.docs-material.docs-body-pageless.docs-grille-gm3.docs-menubar
+  .goog-control-active {
+  background-color: #434c56;
+}

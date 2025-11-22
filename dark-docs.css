@@ -5,10 +5,25 @@
 .docs-gm.docs-material.docs-body-pageless
   #docs-chrome.docs-material
   #docs-header-container
-  .docs-titlebar-buttons {
+  .docs-titlebar-buttons,
+#docs-editor .left-sidebar-container.navigation-widget-in-pageless-format,
+.docs-body-pageless
+  #docs-editor
+  .navigation-widget-floating-navigation-button.navigation-widget,
+#docs-editor
+  .left-sidebar-container.navigation-widget-in-pageless-format
+  .outlines-widget-chaptered
+  .kix-outlines-widget-header-contents {
   background-color: #101214;
 }
-.docs-gm.docs-material.docs-body-pageless #docs-menubar .goog-control {
+.docs-gm.docs-material.docs-body-pageless #docs-menubar .goog-control,
+#docs-editor .outlines-widget-chaptered .navigation-widget-header,
+.docs-gm.docs-material.docs-body-pageless .jfk-button-standard,
+#docs-editor
+  .chapter-item-label-and-buttons-container:not(
+    .chapter-item-label-and-buttons-container-selected
+  )
+  .chapter-label-content {
   color: #f8f9fa;
 }
 .docs-gm.docs-material.docs-body-pageless.docs-grille-gm3 .docs-title-input {
@@ -28,6 +43,11 @@
   .menu-button.goog-control-hover,
 .docs-gm.docs-material.docs-body-pageless.docs-grille-gm3
   #docs-menubar
-  .menu-button.goog-control-hover.goog-control-active.goog-control:hover:active {
+  .menu-button.goog-control-hover.goog-control-active.goog-control:hover:active,
+.docs-gm.docs-material.docs-body-pageless
+  .navigation-widget-content:not(.chapter-item-dragged-within)
+  .chapter-item-label-and-buttons-container:not(
+    .chapter-item-label-and-buttons-container-selected
+  ):hover {
   background-color: #434c56;
 }

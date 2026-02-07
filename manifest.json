@@ -1,12 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Dark Docs",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Dark Mode for Google Docs",
   "content_scripts": [
     {
       "css": ["dark-docs.css"],
       "matches": ["https://docs.google.com/*"]
+    },
+    {
+      "css": ["dark-docs-home.css"],
+      "matches": ["https://docs.google.com/document/u/0/"]
     }
   ]
 }

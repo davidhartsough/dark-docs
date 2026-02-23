@@ -23,11 +23,12 @@
   .chapter-item-label-and-buttons-container:not(
     .chapter-item-label-and-buttons-container-selected
   )
-  .chapter-label-content {
+  .chapter-label-content,
+#docs-title-widget .docs-title-input-label #docs-title-input-label-inner {
   color: #f8f9fa;
 }
-.docs-gm.docs-material.docs-body-pageless.docs-grille-gm3 .docs-title-input {
-  color: #101214;
+#docs-title-widget .docs-title-input-wrapper .docs-title-input {
+  padding-top: 2px;
 }
 .docs-titlebar-badge {
   color: #edf0f2;
